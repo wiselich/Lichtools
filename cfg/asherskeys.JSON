@@ -1,0 +1,263 @@
+{
+    "PIES": {
+        "View Pie": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wm.call_menu_pie",
+            "type": "F16",
+            "value": "PRESS",
+            "properties": {
+                "name": "VIEW3D_MT_WLT_view_pie"
+            }
+        },
+        "Snapping Pie": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wm.call_menu_pie",
+            "type": "F13",
+            "value": "PRESS",
+            "properties": {
+                "name": "VIEW3D_MT_PIE_quick_snap"
+            }
+        },
+        "Meta Pie": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wlt.meta_pie",
+            "type": "F19",
+            "value": "CLICK_DRAG"
+        },
+        "Quick Orientation Pie": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wm.call_menu_pie",
+            "type": "F17",
+            "value": "PRESS",
+            "properties": {
+                "name": "VIEW3D_MT_PIE_quick_orientation"
+            }
+        },
+        "Tablet Pie": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wlt.super_tablet_pie",
+            "type": "RIGHTMOUSE",
+            "alt": true,
+            "shift": true,
+            "ctrl": true,
+            "value": "DOUBLE_CLICK"
+        },
+        "Modifier Pie": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wlt.mod_pie",
+            "type": "F14",
+            "value": "PRESS"
+        },
+        "Save Pie": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wlt.save_pie",
+            "type": "S",
+            "ctrl": true,
+            "value": "PRESS"
+        },
+        "Cursor Pie": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wm.call_menu_pie",
+            "type": "F19",
+            "value": "DOUBLE_CLICK",
+            "properties": {
+                "name": "VIEW3D_MT_WLT_cursor_pie"
+            }
+        }
+    },
+    "MENUS": {
+        "Quick Menu": {
+            "label": "3D View Global",
+            "keymap": "Mesh",
+            "space_type": "EMPTY",
+            "idname": "wm.call_menu",
+            "type": "F19",
+            "alt": true,
+            "shift": true,
+            "value": "PRESS",
+            "properties": {
+                "name": "VIEW3D_MT_actc_root"
+            }
+        }
+    },
+    "PANELS": {
+        "Fast Panel": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wm.call_panel",
+            "type": "F20",
+            "value": "PRESS",
+            "properties": {
+                "name": "VIEW3D_PT_view3d_fast_panel"
+            }
+        },
+        "Meta Panel": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wm.call_panel",
+            "type": "F18",
+            "value": "PRESS",
+            "properties": {
+                "name": "VIEW3D_PT_meta_panel"
+            }
+        }
+    },
+    "OPERATORS": {
+        "First To Last": {
+            "label": "3D View Edit Mesh",
+            "keymap": "Mesh",
+            "space_type": "EMPTY",
+            "idname": "mesh.merge",
+            "type": "ONE",
+            "value": "PRESS",
+            "key_mod": "SPACE",
+            "properties": {
+                "type": "LAST"
+            }
+        },
+        "Set View Axis": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wlt.set_axis",
+            "type": "PAGE_DOWN",
+            "alt": true,
+            "value": "PRESS"
+        },
+        "Super Select": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wlt.super_select",
+            "type": "F15",
+            "value": "PRESS"
+        },
+        "Rhythm Invoke": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wlt.tap_it",
+            "type": "F21",
+            "value": "PRESS"
+        },
+        "Symmetry Gizmo": {
+            "label": "3D View Edit Mesh",
+            "keymap": "Mesh",
+            "space_type": "EMPTY",
+            "idname": "wlt.quick_symmetry",
+            "type": "MIDDLEMOUSE",
+            "value": "DOUBLE_CLICK",
+            "ctrl": true,
+            "properties": {
+                "do_modal": true
+            }
+        },
+        "View Axis": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wlt.view_axis",
+            "type": "F16",
+            "ctrl": true,
+            "alt": true,
+            "value": "PRESS"
+        },
+        "Add Object to Mode":{
+            "label": "3D View Edit Mesh",
+            "keymap": "Mesh",
+            "space_type": "EMPTY",
+            "idname": "wlt.add_to_mode",
+            "type": "F16",
+            "ctrl": true,
+            "value": "PRESS"
+        },
+        "Pan": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "view3d.move",
+            "type": "F22",
+            "value": "PRESS"
+        },
+        "Zoom": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "view3d.zoom",
+            "type": "F22",
+            "value": "DOUBLE_CLICK"
+        },
+        "Orbit": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "view3d.rotate",
+            "type": "F23",
+            "value": "PRESS"
+        },
+        "Context Modal": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wlt.context_modal_mouse",
+            "type": "F23",
+            "ctrl": true,
+            "value": "PRESS"
+        },
+        "Drop Tool": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wlt.drop_tool",
+            "type": "ESC",
+            "value": "PRESS"
+        },
+        "Smart Brush Invert": {
+            "label": "3D View Global",
+            "keymap": "Image Paint",
+            "space_type": "EMPTY",
+            "idname": "wlt.smart_brush_invert",
+            "type": "LEFTMOUSE",
+            "alt": true,
+            "ctrl": true,
+            "value": "PRESS"
+        },
+        "Smart Brush Mask": {
+            "label": "3D View Global",
+            "keymap": "Image Paint",
+            "space_type": "EMPTY",
+            "idname": "wlt.smart_brush_mask_manager",
+            "type": "W",
+            "ctrl": true,
+            "value": "PRESS"
+        },
+        "Group Select": {
+            "label": "3D View Global",
+            "keymap": "3D View",
+            "space_type": "VIEW_3D",
+            "idname": "wlt.group_select",
+            "type": "F14",
+            "ctrl": true,
+            "alt": true,
+            "value": "PRESS"
+        }
+    }
+}

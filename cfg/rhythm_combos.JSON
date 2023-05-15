@@ -1,0 +1,32 @@
+{
+    "FQ": {
+        "idname": "wm.call_menu_pie",
+        "properties": {
+            "name":"VIEW3D_MT_WLT_view_pie"
+        }
+    },
+    "FQS": {
+        "idname": "wm.call_menu_pie",
+        "properties": {
+            "name":"VIEW3D_MT_WLT_view_pie"
+        }
+    },
+    "FSQ": {
+        "idname": "wm.call_menu_pie",
+        "properties": {
+            "name":"VIEW3D_MT_PIE_quick_snap"
+        }
+    },
+    "FSS": {
+        "idname": "wm.call_menu_pie",
+        "properties": {
+            "name":"VIEW3D_MT_WLT_cursor_pie"
+        }
+    },
+    "FQQ": {
+        "idname":"wm.call_menu_pie",
+        "properties":{
+            "name": "VIEW3D_MT_PIE_quick_orientation"
+        }
+    }
+}
